@@ -14,7 +14,7 @@ public class SubwayController {
 	private static final Logger logger = LoggerFactory.getLogger(SubwayController.class);
 
 	@RequestMapping(value="/firstScreen", method = RequestMethod.GET)
-	public String firstScreen(Locale locale) {
+	public String firstScreen() {
 		logger.info("************************");
 		logger.info("this is visit firstSceen");
 		logger.info("************************");
